@@ -9,6 +9,7 @@ nav a {
 }
 main{
     width: 600px;
+    max-width: 600px;
 }
 h1{
     color: darkblue;
