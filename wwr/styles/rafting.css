@@ -61,7 +61,7 @@ h1 {
     padding: 15px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color: #000000;
 }
 
@@ -69,7 +69,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     text-align: left;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     opacity: 0.8;
 }
 
