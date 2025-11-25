@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="useremail">Email</label>
+            <input type="email" id="useremail" name="email" required>
+
+            <label for="browserChoice">Select Favorite Browser</label>
+            <select name="browserChoice" id="browserChoice">
+                <option value="1">Brave</option>
+                <option value="2">Chrome</option>
+                <option value="3">Opera</option>
+            </select>
+
+            <label><input type="checkbox" id="pet" name="pet">Do you have a household pet?</label>
+
+            <label for="feedback">List the places you have lived: </label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Farmington, Aztec, Bloomfield"></textarea>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
