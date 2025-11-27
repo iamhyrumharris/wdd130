@@ -1,0 +1,38 @@
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+ol li {
+  margin: 30px;
+  color: #333;
+}
+
+ol li::marker {
+  color: #143f89;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  display: flex;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1913cd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+
+    <form action="submit.php" method="post">
+        <ol>
+            <li>
+                What does the acronym CSS stand for?
+                <input type="text" name="q1">
+            </li>
+
+            <li>
+                How are id and class attributes selected in CSS?
+                <textarea name="q2" rows="4"></textarea>
+            </li>
+
+            <li>
+                Which of the following is a valid CSS comment?
+                <select name="q3">
+                    <option value="">Choose One ...</option>
+                    <option value="a">/* This is a comment */</option>
+                    <option value="b">// This is a comment</option>
+                    <option value="c"><!-- This is a comment --></option>
+                </select>
+            </li>
+
+            <li>
+                What is the bottom margin given this declaration?
+                margin: 10px 5px 15px;
+                <input type="text" name="q4">
+            </li>
+        </ol>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
