@@ -26,10 +26,9 @@ header, main, footer {
 header {
     display: grid;
     padding: 10px;
-    margin-bottom: 20px;
     grid-template-columns: 1fr 2fr;
     place-items: center;
-    background-color: var(--accent2-color);
+    background: linear-gradient(to bottom, var(--accent2-color) 90%, white);
 }
 
 nav, p, article {
@@ -238,4 +237,119 @@ footer p {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+}
+
+.contact-trips-home-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact-trips-home-page .Call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-trips-home-page form{
+    padding: 20px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(211, 211, 211);
+}
+
+.Call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(211, 211, 211);
+}
+
+.Call-to-action a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.Call-to-action p {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.gear-section {
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.rafting-gear-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rafting-gear-section figure {
+    text-align: center;
+}
+
+.rafting-gear-section figure img {
+    width: 150px;
+    height: auto;
+}
+
+.trips-section {
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.trips-packages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+.Book-now-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(211, 211, 211);
+}
+
+.Book-now-section a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.Book-now-section p {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
